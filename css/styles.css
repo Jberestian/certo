@@ -73,3 +73,14 @@
 /* .freedom_block {
   background-color: #ffffff;
 } */
+
+/* footer styles */
+
+.footer {
+  background-color: #02033b;
+}
+
+.social {
+  width: 36px;
+  height: 36px;
+}
