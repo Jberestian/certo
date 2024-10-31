@@ -18,3 +18,14 @@
 .nav_list {
   display: flex;
 }
+
+/* mobile style */
+
+.mobile {
+  display: flex;
+}
+
+.icon-arrow {
+  width: 20px;
+  height: 14px;
+}
