@@ -41,17 +41,6 @@
   border: none;
 }
 
-/* mobile styles */
-
-.mobile {
-  display: flex;
-}
-
-.icon-arrow {
-  width: 20px;
-  height: 14px;
-}
-
 /* mobile style */
 
 .mobile {
@@ -101,14 +90,65 @@
 }
 
 /* Loved style */
-/* 
 .loved {
-  background-color: #ffc247;
+  background-color: #f7c95f, #fdb235;
 }
 
-.stars_block {
-  background-color: #ffffff;
-} */
+.loved_title {
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 45px;
+  letter-spacing: -0.7px;
+  text-align: left;
+  color: #02033b;
+}
+
+.icon-star {
+  height: 24px;
+  width: 24px;
+}
+
+.loved_list {
+  display: flex;
+}
+
+.loved_text {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #02033b;
+}
+
+.loved_sub_text {
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 20px;
+  text-align: left;
+  color: #02033b;
+}
+
+.loved_featured_title {
+  font-family: Inter;
+  font-size: 23px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: -0.5px;
+  text-align: left;
+  color: #02033b;
+}
+
+.featured_list {
+  display: flex;
+}
+
+.featured_icon {
+  width: 130px;
+  height: 95px;
+}
 
 .icon-star {
   width: 24px;
@@ -132,6 +172,25 @@
 
 .certo {
   display: flex;
+}
+
+.certo_title {
+  font-family: inter, Helvetica, sans-serif;
+  font-weight: 800;
+  font-size: 36px;
+  text-align-last: left;
+  line-height: 45px;
+  letter-spacing: -0, 72px;
+  color: #02033b;
+}
+
+.certo_text {
+  font-family: inter, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-align-last: left;
+  line-height: 30px;
+  color: #02033b;
 }
 
 /* freedom styles  */
