@@ -5,21 +5,43 @@
   display: flex;
 }
 
+.nav_list {
+  display: flex;
+}
+
+.nav_link {
+  font-family: Inter;
+  font-size: 19px;
+  font-weight: 800;
+  line-height: 25px;
+  text-align: left;
+  color: #02033b;
+}
+
 .icon-logo {
   width: 157px;
   height: 54px;
 }
 
 .icon-dropdown {
-  width: 12px;
   height: 7px;
+  width: 12px;
 }
 
-.nav_list {
-  display: flex;
+.signin_btn {
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 18px;
+  text-align: left;
+  color: #ffffff;
+  border-radius: 42px;
+  background-color: #4335de;
+  padding: 16px 20px;
+  border: none;
 }
 
-/* mobile style */
+/* mobile styles */
 
 .mobile {
   display: flex;
@@ -28,6 +50,54 @@
 .icon-arrow {
   width: 20px;
   height: 14px;
+}
+
+/* mobile style */
+
+.mobile {
+  display: flex;
+}
+
+.mobile_title {
+  font-family: inter, Helvetica, sans-serif;
+  font-weight: 800;
+  font-size: 60px;
+  text-align-last: left;
+  line-height: 75px;
+  letter-spacing: -1, 2px;
+  color: #02033b;
+}
+
+.mobile_text {
+  font-family: inter, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-align-last: left;
+  line-height: 30px;
+  color: #02033b;
+}
+
+.mobile_btn {
+  font-family: inter, Helvetica, sans-serif;
+  font-weight: 800;
+  font-size: 19px;
+  text-align-last: center;
+  line-height: 30px;
+  color: #02033b;
+  border-radius: 42px;
+  padding: 16px 20px;
+}
+
+.orange_btn {
+  background-color: #ffc247;
+  outline: none;
+  margin-right: 48px;
+}
+
+.icon-arrow {
+  width: 20px;
+  height: 14px;
+  margin-left: 16px;
 }
 
 /* Loved style */
