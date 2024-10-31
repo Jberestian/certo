@@ -29,3 +29,22 @@
   width: 20px;
   height: 14px;
 }
+
+/* Loved style */
+/* 
+.loved {
+  background-color: #ffc247;
+}
+
+.stars_block {
+  background-color: #ffffff;
+} */
+
+.icon-star {
+  width: 24px;
+  height: 24px;
+}
+
+.loved_list {
+  display: flex;
+}
