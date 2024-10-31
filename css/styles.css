@@ -48,3 +48,28 @@
 .loved_list {
   display: flex;
 }
+
+.featured_list {
+  display: flex;
+}
+
+.featured_icon {
+  width: 130px;
+  height: 95px;
+}
+
+/* certo styles */
+
+.certo {
+  display: flex;
+}
+
+/* freedom styles  */
+
+.freedom {
+  background-color: #f3f8ff;
+}
+
+/* .freedom_block {
+  background-color: #ffffff;
+} */
