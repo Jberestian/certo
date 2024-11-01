@@ -113,7 +113,8 @@
 
 /* Loved style */
 .loved {
-  background-color: #f7c95f, #fdb235;
+  background: linear-gradient(180deg, #f7c95f 0%, #fdb235 100%);
+  padding: 83px 96px;
 }
 
 .loved_title {
@@ -135,6 +136,21 @@
   display: flex;
 }
 
+.loved_item {
+  background-color: #ffffff;
+  border-radius: 48px;
+  padding: 35px;
+  margin-right: 24px;
+}
+
+.loved_item:last-child {
+  margin-right: 0;
+}
+
+.stars_block {
+  margin-bottom: 24px;
+}
+
 .loved_text {
   font-family: Inter;
   font-size: 16px;
@@ -142,6 +158,7 @@
   line-height: 20px;
   text-align: left;
   color: #02033b;
+  margin-bottom: 24px;
 }
 
 .loved_sub_text {
