@@ -423,18 +423,18 @@
 
 .davidlaid {
   padding: 84px 192px;
-  background-color: #F3F8FF;
+  background-color: #f3f8ff;
 }
 
 .davidlaid_sub_title {
-    font-family: Inter;
-    font-size: 56px;
-    font-weight: 800;
-    line-height: 75px;
-    letter-spacing: -1.2px;
-    text-align: center;
-    color: #02033B;
-    margin-bottom: 72px; 
+  font-family: Inter;
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 75px;
+  letter-spacing: -1.2px;
+  text-align: center;
+  color: #02033b;
+  margin-bottom: 72px;
 }
 
 .davidlaid_list {
@@ -458,48 +458,49 @@
 }
 
 .david_btn {
-    font-family: Inter;
-    font-size: 15px;
-    font-weight: 800;
-    line-height: 20px;
-    text-align: left;
-    color: #02033B;
-    border-radius: 48px;
-    background-color: #F3F8FF;
-    padding: 12px 20px;
-    border: none;
-    position: absolute;
-    left: 24px;
-    top: 24px;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 20px;
+  text-align: left;
+  color: #02033b;
+  border-radius: 48px;
+  background-color: #f3f8ff;
+  padding: 12px 20px;
+  border: none;
+  position: absolute;
+  left: 24px;
+  top: 24px;
 }
 
 .davidlaid_title {
-    font-family: Inter;
-    font-size: 23px;
-    font-weight: 700;
-    line-height: 30px;
-    text-align: left;
-    color: #02033B;
-    margin-top: 47px;
-    padding: 0 55px;
+  font-family: Inter;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+  color: #02033b;
+  margin-top: 47px;
+  padding: 0 55px;
 }
 
 .davidlaid_text {
-    font-family: Inter;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
-    color: #02033B;
-    margin-top: 25px;
-    padding: 0 45px;
-    margin-bottom: 20px;  
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #02033b;
+  margin-top: 25px;
+  padding: 0 45px;
+  margin-bottom: 20px;
 }
 
 .davidlaid_btn {
-    display: flex;
-    justify-content: center;
-    margin-top: 72px;
+  display: flex;
+  justify-content: center;
+  margin-top: 72px;
+}
 
 /* footer styles */
 
