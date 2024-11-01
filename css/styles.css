@@ -3,10 +3,25 @@
 .header {
   background-color: #f3f8ff;
   display: flex;
+  justify-content: space-around;
+  padding: 24px 120px;
+  align-items: center;
+}
+
+.header_nav {
+  margin-left: 260px;
 }
 
 .nav_list {
   display: flex;
+}
+
+.nav_item {
+  margin-right: 48px;
+}
+
+.nav_item:last-child {
+  margin-right: 0;
 }
 
 .nav_link {
