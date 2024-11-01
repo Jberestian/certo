@@ -125,6 +125,8 @@
   letter-spacing: -0.7px;
   text-align: left;
   color: #02033b;
+  max-width: 520px;
+  margin-bottom: 73px;
 }
 
 .icon-star {
@@ -151,6 +153,18 @@
   margin-bottom: 24px;
 }
 
+.arrow {
+  border: solid red;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
 .loved_text {
   font-family: Inter;
   font-size: 16px;
@@ -170,6 +184,13 @@
   color: #02033b;
 }
 
+.loved_featured {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 72px;
+}
+
 .loved_featured_title {
   font-family: Inter;
   font-size: 23px;
@@ -178,28 +199,15 @@
   letter-spacing: -0.5px;
   text-align: left;
   color: #02033b;
+  margin-right: 73px;
 }
 
 .featured_list {
   display: flex;
 }
 
-.featured_icon {
-  width: 130px;
-  height: 95px;
-}
-
-.icon-star {
-  width: 24px;
-  height: 24px;
-}
-
-.loved_list {
-  display: flex;
-}
-
-.featured_list {
-  display: flex;
+.featured_item {
+  margin-right: 36px;
 }
 
 .featured_icon {
@@ -208,9 +216,14 @@
 }
 
 /* certo styles */
-
 .certo {
   display: flex;
+  padding: 85px 200px;
+}
+
+.certo_left_block {
+  margin-right: 60px;
+  padding: 0 135px;
 }
 
 .certo_title {
@@ -221,6 +234,7 @@
   line-height: 45px;
   letter-spacing: -0, 72px;
   color: #02033b;
+  margin-bottom: 43px;
 }
 
 .certo_text {
@@ -230,6 +244,11 @@
   text-align-last: left;
   line-height: 30px;
   color: #02033b;
+  margin-bottom: 76px;
+}
+
+.certo_btn {
+  margin-bottom: 24px;
 }
 
 /* freedom styles  */
