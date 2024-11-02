@@ -278,7 +278,27 @@
 }
 .freedom_list {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.freedom_item {
+  text-align: center;
   margin-right: 48px;
+  margin-bottom: 70px;
+}
+
+.freedom_item:last-child {
+  margin-right: 0;
+}
+
+.featured_icon {
+  margin-bottom: 24px;
+}
+
+.freedom_btn_block {
+  display: flex;
+  justify-content: center;
 }
 
 .ico-freedom {
@@ -294,6 +314,7 @@
   letter-spacing: -0.4px;
   text-align: center;
   color: #02033b;
+  margin-bottom: 24px;
 }
 
 .freedom_text {
@@ -303,6 +324,8 @@
   line-height: 24px;
   text-align: center;
   color: #02033b;
+  max-width: 230px;
+  margin-bottom: 24px;
 }
 
 .freedom_btn {
@@ -506,10 +529,15 @@
 
 .footer {
   background-color: #02033b;
+  padding: 96px 192px;
 }
 
 .footer_wrapper {
   display: flex;
+}
+
+.footer_left {
+  margin-right: 60px;
 }
 
 .footer_left_title {
@@ -520,10 +548,27 @@
   text-align: left;
   line-height: 30px;
   color: #ffffff;
+  margin-bottom: 49px;
+}
+
+.footer_social {
+  margin-bottom: 48px;
 }
 
 .social_list {
   display: flex;
+}
+
+.social_item {
+  margin-right: 40px;
+}
+
+.social_item:last-child {
+  margin-right: 0;
+}
+
+.privacy_terms {
+  margin-bottom: 49px;
 }
 
 .privacy_terms_text {
@@ -542,6 +587,10 @@
   margin-right: 0;
 }
 
+.footer_middle {
+  margin-right: 60px;
+}
+
 .footer_middle_title {
   font-family: Inter;
   font-size: 35px;
@@ -550,11 +599,21 @@
   text-align: left;
   line-height: 4px;
   color: #ffffff;
+  margin-bottom: 85px;
+  border-bottom: 1px solid #ffffff;
+}
+
+.footer_middle_item {
+  margin-bottom: 24px;
+}
+
+.footer_middle_item:last-child {
+  margin-bottom: 0;
 }
 
 .footer_middle_link {
   font-family: Inter;
-  font-size: 11px;
+  font-size: 19px;
   font-weight: 400;
   line-height: 24px;
   text-align: left;
@@ -565,6 +624,7 @@
 .footer_right {
   background-color: #f1b857;
   border-radius: 42px;
+  padding: 35px 36px;
 }
 
 .footer_rigt_title {
@@ -572,10 +632,9 @@
   font-size: 23px;
   font-weight: 800;
   line-height: 30px;
-  text-align: left;
-  line-height: 30px;
   letter-spacing: -0.48px;
   color: #ffffff;
+  text-align: center;
 }
 
 .footer_rigt_text {
@@ -585,6 +644,9 @@
   line-height: 24px;
   text-align: left;
   color: #02033b;
+  margin-bottom: 36px;
+  padding: 0 50px;
+  text-align: center;
 }
 
 .footer_rigt_email {
@@ -611,6 +673,14 @@
   line-height: 24px;
   text-align: left;
   color: #ffffff;
+}
+
+.footer_bottom_text {
+  padding: 0 630px 0 0;
+}
+
+.copyright_dick {
+  margin-bottom: 18px;
 }
 
 .copyright_text_link {
