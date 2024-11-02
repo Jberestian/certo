@@ -622,9 +622,10 @@
 }
 
 .footer_right {
-  background-color: #f1b857;
   border-radius: 42px;
   padding: 35px 36px;
+  background: url(/images/footer_logo.svg) no-repeat #f1b857;
+  background-position: center;
 }
 
 .footer_rigt_title {
@@ -633,8 +634,9 @@
   font-weight: 800;
   line-height: 30px;
   letter-spacing: -0.48px;
-  color: #ffffff;
-  text-align: center;
+  color: #02033b;
+  text-align: left;
+  margin-bottom: 21px;
 }
 
 .footer_rigt_text {
@@ -645,13 +647,11 @@
   text-align: left;
   color: #02033b;
   margin-bottom: 36px;
-  padding: 0 50px;
-  text-align: center;
 }
 
 .footer_rigt_email {
   border-radius: 30% 0 0 30%;
-  padding: 10px;
+  padding: 8px 140px 8px 16px;
 }
 
 .footer_rigt_btn {
@@ -663,6 +663,7 @@
   line-height: 18px;
   text-align: left;
   color: #ffffff;
+  padding: 8px 28px;
 }
 
 .copyright_text,
